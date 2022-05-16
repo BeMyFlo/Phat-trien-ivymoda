@@ -55,6 +55,7 @@ header:hover{
       top: 50px;
       
       background-color: white;
+      transition: 0.3s;
 
   }
   .sub-menu ul{
@@ -108,12 +109,12 @@ header:hover{
       position:absolute;
       right:10px;
   }
-  #Slider{
+#Slider{
     padding-bottom: 30px;
     border-bottom: 2px solid #000;
   }
   /* ti le khung hinh*/
-  .aspect-ratio-169 {
+.aspect-ratio-169 {
 	display: block;
 	position:relative;
 	padding-top: 56.25%;
@@ -239,8 +240,48 @@ header:hover{
     text-align: center;
 }
 
+/* San pham demo */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container {
+    max-width: 5000px;
+    
+}
+.cartegory {
+    margin-top: -100px;
+    padding: 100px 0 0;
+}
+
+.cartegory-right-content {
+    margin-top: 20px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.cartegory-right-content-item {
+    width: calc(25% - 20px);
+    text-align:center;
+    padding: 10px 0;
+}
+.cartegory-right-content-item h1{
+    font-size: 11px;
+    font-family: var(--main-text-font);
+    margin-top: 6px;
+    color: #333333;
+}
+.cartegory-right-content-item p {
+    font-size: 12px;
+}
+.cartegory-right-content-item img{
+    width: 100%;
+}
+
+
+/* Button */
 .button-xemtatca{
     margin-top: 20px;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -382,3 +423,29 @@ header:hover{
     transform: rotateX(-90deg);
   
   }
+
+/*Anh quang cao BST*/
+.trangchuBST{
+    margin-top: 50px;
+    margin-bottom: -300px;
+}
+
+  /* ti le khung hinh*/
+.aspect-ratio-170 {
+	display: block;
+	position:relative;
+	padding-top: 56.25%;
+	transition: 0.3s;
+
+}
+.aspect-ratio-170 img {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 0;
+	left: 0;
+    border-radius:15%;
+    -moz-border-radius:15%;
+    -webkit-border-radius:15%;
+}
